@@ -1,0 +1,15 @@
+.container {
+    background-color: rgba(23, 23, 23, 0.9);
+    padding: var(--mantine-spacing-xl);
+    border-radius: var(--mantine-radius-default);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    min-width: min(100%, 460px);
+    color: white;
+}
+
+.projectItem {
+    padding: 12px;
+    border-radius: var(--mantine-radius-default);
+    background-color: var(--mantine-color-gray-9);
+}

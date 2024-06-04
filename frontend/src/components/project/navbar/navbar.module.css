@@ -1,0 +1,3 @@
+.projectName input:not(:active, :focus) {
+  border-color: transparent;
+}

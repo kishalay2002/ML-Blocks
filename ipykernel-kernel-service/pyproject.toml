@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kernel"
+version = "0.1.0"
+description = ""
+authors = ["Srijan Mukherjee <emailofsrijan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+docker = "^7.0.0"
+pydantic = "^2.5.3"
+python-dotenv = "^1.0.1"
+pymongo = "^4.6.1"
+ipykernel = "^6.29.0"
+requests = "^2.31.0"
+pyzmq = "^25.1.2"
+python-multipart = "^0.0.6"
+aiofiles = "^23.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

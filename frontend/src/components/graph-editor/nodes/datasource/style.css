@@ -1,0 +1,9 @@
+.datasource-node {
+  min-width: 220px;
+}
+
+.datasource-node > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

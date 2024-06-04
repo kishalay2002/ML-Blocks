@@ -1,0 +1,11 @@
+.rename-node {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rename-node .input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

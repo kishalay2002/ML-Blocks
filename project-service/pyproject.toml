@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "project-service"
+version = "0.1.0"
+description = ""
+authors = ["Srijan Mukherjee <emailofsrijan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.6.1"
+python-dotenv = "^1.0.1"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
+pyjwt = "^2.8.0"
+requests = "^2.31.0"
+httpx = "^0.26.0"
+asyncio = "^3.4.3"
+python-multipart = "^0.0.6"
+coolname = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

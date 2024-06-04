@@ -1,0 +1,9 @@
+{
+  "connections": {
+    "dataSource": ["join", "filter", "rename", "linearRegression"],
+    "join": ["filter", "rename", "join", "linearRegression"],
+    "filter": ["filter", "join", "rename", "linearRegression"],
+    "rename": ["join", "dataSource", "rename", "filter", "linearRegression"],
+    "linearRegression": ["dataSource", "join", "filter", "rename"]
+  }
+}
